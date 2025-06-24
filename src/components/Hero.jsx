@@ -22,10 +22,11 @@ const Hero = () => {
           src={blur}
           alt="blur"
           className="absolute top-0 left-0 w-full h-full object-cover opacity-20"
+          unoptimized
         />
       </div>
       <div className="flex justify-center items-center py-2">
-        <Image className="object-cover" alt="" src={heroimg} />
+        <Image className="object-cover" alt="" src={heroimg} unoptimized />
       </div>
       <div></div>
     </div>

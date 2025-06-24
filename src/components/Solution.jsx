@@ -23,20 +23,28 @@ const Solution = () => {
     <div className="flex flex-col">
       {problemAndSolution.map(({ title, lable, content, image }) => {
         return (
-          <div className="flex flex-col w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto">
-            <div className="text-xl flex justify-start text-primary md:text-3xl font-bold mb-4 pb-4">
+          <div
+            key={title}
+            className="flex flex-col w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto "
+          >
+            <div className="text-xl flex justify-start text-primary md:text-2xl font-bold mt-4 pt-4">
               {title}
             </div>
-            <Card key={title} className=" my-5">
-              <div className="flex">
-                <div className="flex flex-col w-1/2">
+            <Card key={title} className=" my-5 bg-muted/50 dark:bg-card">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid">
                   <CardHeader>
                     <CardTitle className="py-6">{lable}</CardTitle>
                   </CardHeader>
                   <CardContent className="justify-end">{content}</CardContent>
                 </div>
-                <div className="w-1/2">
-                  <Image className="w-full" alt={title} src={image} />
+                <div className="">
+                  <Image
+                    className="object-cover w-full h-full"
+                    alt={title}
+                    src={image}
+                    unoptimized
+                  />
                 </div>
               </div>
             </Card>

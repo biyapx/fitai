@@ -50,7 +50,13 @@ export const ApproachSection = () => {
           >
             <CardHeader className="flex flex-col items-start">
               <div className="flex justify-between w-full px-5">
-                <Image className="" src={icon} alt={title} width={48} />
+                <Image
+                  className=""
+                  src={icon}
+                  alt={title}
+                  width={48}
+                  unoptimized
+                />
                 <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
                   0{index + 1}
                 </span>

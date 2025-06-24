@@ -10,7 +10,7 @@ const Navbar = () => {
         href="/"
         className="font-bold text-2xl md:text-3xl text-transparent bg-gradient-to-r from-primary to-secondary flex items-center bg-clip-text"
       >
-        <Image src={logo} alt="" className="w-12 h-12 p-2" />
+        <Image src={logo} alt="" className="w-12 h-12 p-2" unoptimized />
         FitAI
       </Link>
       <Link
