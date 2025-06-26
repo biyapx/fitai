@@ -31,21 +31,21 @@ const Solution = () => {
               {title}
             </div>
             <Card key={title} className=" my-5 bg-muted/50 dark:bg-card">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="grid">
-                  <CardHeader>
-                    <CardTitle className="py-6">{lable}</CardTitle>
+              <div className="grid md:grid-cols-2">
+                <div className="flex flex-col justify-center h-full mx-auto">
+                  <CardHeader className="justify-center py-2 md:py-4">
+                    <CardTitle className="py-2 md:py-4 text-.5xl md:text-xl">
+                      {lable}
+                    </CardTitle>
                   </CardHeader>
-                  <CardContent className="justify-end">{content}</CardContent>
+                  <CardContent className="text-justify">{content}</CardContent>
                 </div>
-                <div className="">
-                  <Image
-                    className="object-cover w-full h-full"
-                    alt={title}
-                    src={image}
-                    unoptimized
-                  />
-                </div>
+                <Image
+                  className="object-cover w-full h-full inset-0 rounded-b-1"
+                  alt={title}
+                  src={image}
+                  unoptimized
+                />
               </div>
             </Card>
           </div>

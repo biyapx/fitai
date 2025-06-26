@@ -36,33 +36,39 @@ const iconMap = {
 
 const valuesList = [
   {
+    id: 1,
     icon: "BrainCog",
     title: "Innovation",
     description: "Converts theoretical graduates into job‑ready professionals.",
   },
   {
+    id: 2,
     icon: "IdCardLanyard",
     title: "Employability ",
     description: "Converts theoretical graduates into job‑ready professionals.",
   },
   {
+    id: 3,
     icon: "SquaresIntersect",
     title: "Inclusivity",
     description:
       "We cater to all women, embracing diversity and individuality.",
   },
   {
+    id: 4,
     icon: "Factory",
     title: "Business Growth",
     description: "We provide reliable and precise insights into your health.",
   },
   {
+    id: 5,
     icon: "Factory",
     title: "Business Growth",
     description:
       "We prioritize safeguarding your data and personal information.",
   },
   {
+    id: 6,
     icon: "Factory",
     title: "Business Growth",
     description:
@@ -93,10 +99,10 @@ export const BenefitsSection = () => {
         Why This Matters To Africa
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {valuesList.map(({ icon, title, description }) => {
+        {valuesList.map(({ id, icon, title, description }) => {
           const IconComponent = iconMap[icon];
           return (
-            <div key={title}>
+            <div key={id}>
               <Card className="h-full bg-background border-0 shadow-none">
                 <CardHeader className="flex flex-col gap-4 justify-center items-center">
                   <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10">

@@ -46,7 +46,7 @@ export const ApproachSection = () => {
         {benefitList.map(({ icon, title, description }, index) => (
           <Card
             key={title}
-            className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
+            className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number py-6"
           >
             <CardHeader className="flex flex-col items-start">
               <div className="flex justify-between w-full px-5">
