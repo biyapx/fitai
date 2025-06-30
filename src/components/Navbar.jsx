@@ -15,7 +15,7 @@ const Navbar = () => {
       </Link>
       <Link
         href={"#contact"}
-        className="font-bold text-md flex items-center bg-secondary/10 rounded-xl py-2 px-4 text-secondary/80"
+        className="font-bold text-md flex items-center bg-primary/10 rounded-xl py-2 px-4 text-primary/80 hover:bg-primary/30 transition-colors duration-300"
       >
         Contact Us
       </Link>

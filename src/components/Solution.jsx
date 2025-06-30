@@ -14,7 +14,7 @@ const problemAndSolution = [
     title: "The Solution",
     lable: "Bridging the Skills Gap",
     content:
-      "Every year 12 million young Africans enter the labour market, but only about 3 million formal jobs are created. The result is a widening gulf between open positions and people with the right skills. By 2030, almost 375 million young Africans will be competing for work, yet employers still struggle to find candidates who can apply technology on the job. Degrees alone are no longer enough; companies need practical, future‑ready talent—especially as AI reshapes every industry.",
+      "We teach young professionals to use AI as an assistant—automating routine tasks, super‑charging research, and sparking creativity—so they become the candidates businesses actually need. When youth master AI, jobs stop disappearing and start evolving",
     image: problemImage,
   },
 ];
@@ -34,14 +34,14 @@ const Solution = () => {
               <div className="grid md:grid-cols-2">
                 <div className="flex flex-col justify-center h-full mx-auto">
                   <CardHeader className="justify-center py-2 md:py-4">
-                    <CardTitle className="py-2 md:py-4 text-.5xl md:text-xl">
+                    <CardTitle className="py-2 md:py-4 text-xl md:text-2xl">
                       {lable}
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="text-justify">{content}</CardContent>
                 </div>
                 <Image
-                  className="object-cover w-full h-full inset-0 rounded-b-1"
+                  className="object-cover w-full h-full inset-0 sm:rounded-b-xl md:rounded-r-xl"
                   alt={title}
                   src={image}
                   unoptimized
