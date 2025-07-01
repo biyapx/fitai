@@ -31,21 +31,13 @@ const Footer = () => {
             <div className="text-sm text-muted-foreground space-y-1">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                contact@fitai.com
+                Info.fitait@gmail.com
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                +251 (910) 110-101
+                +251 96 1249178
               </div>
-              <div className="flex items-center gap-2 mt-2">
-                <FileText className="h-4 w-4" />
-                <a
-                  href="/articles"
-                  className="hover:text-primary transition-colors"
-                >
-                  Articles
-                </a>
-              </div>
+              <div className="flex items-center pl-6">+251 91 056 6185</div>
             </div>
           </div>
           <div className="text-sm text-muted-foreground text-left space-y-3 py-4 md:py-0">
@@ -57,31 +49,18 @@ const Footer = () => {
                 <MapPin className="h-4 w-4" />
                 Addis Ababa, Ethiopia
               </div>
-              <div className="flex items-center gap-2 mt-1">
-                <Map className="h-4 w-4" />
-                <a
-                  href="https://maps.google.com/?q=Addis+Ababa,+Ethiopia"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors"
-                >
-                  View on Map
-                </a>
-              </div>
             </div>
             <div className="flex gap-2 justify-start">
-              <Button variant="ghost" size="icon" className="h-8 w-8">
-                <Facebook className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" size="icon" className="h-8 w-8">
-                <Twitter className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" size="icon" className="h-8 w-8">
-                <Instagram className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" size="icon" className="h-8 w-8">
-                <Linkedin className="h-4 w-4" />
-              </Button>
+              <a href="https://instagram.com/fitai_x">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Instagram className="h-4 w-4" />
+                </Button>
+              </a>
+              <a href="https://www.linkedin.com/company/fitai/">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Linkedin className="h-4 w-4" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>

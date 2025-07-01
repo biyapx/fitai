@@ -39,14 +39,10 @@ export function ContactForm() {
     },
   });
 
-  function onSubmit(values) {
-    console.log(values);
-  }
-
   return (
     <Form {...form} className="flex justify-center items-center">
       <form
-        onSubmit={form.handleSubmit(onSubmit)}
+        action="mailto:Info.fitait@gmail.com"
         className="space-y-1 md:space-y-2"
       >
         <FormField
