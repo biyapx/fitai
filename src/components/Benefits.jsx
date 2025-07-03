@@ -50,29 +50,15 @@ const valuesList = [
   {
     id: 3,
     icon: "SquaresIntersect",
-    title: "Inclusivity",
+    title: "Inclusive Progress",
     description:
-      "We cater to all women, embracing diversity and individuality.",
+      "Reduces displacement fears by showing AI can augment every role.",
   },
   {
     id: 4,
     icon: "Factory",
     title: "Business Growth",
     description: "We provide reliable and precise insights into your health.",
-  },
-  {
-    id: 5,
-    icon: "Factory",
-    title: "Business Growth",
-    description:
-      "We prioritize safeguarding your data and personal information.",
-  },
-  {
-    id: 6,
-    icon: "Factory",
-    title: "Business Growth",
-    description:
-      "We foster a supportive network for shared experiences and encouragement.",
   },
 ];
 const missionAndVisionList = [
@@ -98,12 +84,12 @@ export const BenefitsSection = () => {
       <h2 className="text-lg font-bold md:text-3xl text-primary text-center mb-2 tracking-wider p-10">
         Why This Matters To Africa
       </h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-2 gap-4">
         {valuesList.map(({ id, icon, title, description }) => {
           const IconComponent = iconMap[icon];
           return (
             <div key={id}>
-              <Card className="h-full bg-background border-0 shadow-none">
+              <Card className="h-full bg-background border-0 shadow-none p-6">
                 <CardHeader className="flex flex-col gap-4 justify-center items-center">
                   <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10">
                     {IconComponent && (
