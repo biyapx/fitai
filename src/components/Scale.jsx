@@ -14,7 +14,7 @@ const ScaleSection = () => {
       id="scale"
       className="py-20 px-6 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto"
     >
-      <h2 className="text-lg font-bold md:text-3xl text-primary text-center mb-2 tracking-wider p-10">
+      <h2 className="text-lg font-bold md:text-3xl text-transparent bg-gradient-to-r from-primary to-secondary flex items-center bg-clip-text justify-center text-center mb-2 tracking-wider p-10">
         What We Need to Scale
       </h2>
       <div className="grid md:grid-cols-3 gap-8 mb-12">
