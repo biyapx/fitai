@@ -6,6 +6,7 @@ import {
   HandshakeIcon,
   SchoolIcon,
 } from "lucide-react";
+import { Button } from "./ui/button";
 
 const ScaleSection = () => {
   return (
@@ -70,6 +71,9 @@ const ScaleSection = () => {
             close the skills gap for good.
           </p>
         </CardContent>
+        <div className="flex justify-center mb-4">
+          <Button className="px-10 bg-card text-primary">Learn More</Button>
+        </div>
       </Card>
     </section>
   );

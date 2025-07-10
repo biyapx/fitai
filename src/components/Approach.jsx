@@ -38,9 +38,9 @@ export const ApproachSection = () => {
       id="benefits"
       className="container py-5 sm:py-32 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto justify-center items-center"
     >
-      <h2 className="text-xl flex justify-start text-primary md:text-2xl font-bold mb-4 pb-4">
+      <h1 className="text-xl md:text-2xl text-transparent bg-gradient-to-r from-primary to-secondary flex items-center bg-clip-text font-bold mb-4 pb-4">
         Our Approach
-      </h2>
+      </h1>
 
       <div className="grid md:grid-cols-2 gap-6 w-full">
         {benefitList.map(({ icon, title, description }, index) => (
@@ -61,7 +61,9 @@ export const ApproachSection = () => {
                   0{index + 1}
                 </span>
               </div>
-              <CardTitle className="items-start">{title}</CardTitle>
+              <CardTitle className="items-start text-primary">
+                {title}
+              </CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">
               {description}

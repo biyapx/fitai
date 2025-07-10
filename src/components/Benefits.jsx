@@ -81,7 +81,7 @@ export const BenefitsSection = () => {
       id="about"
       className="container py-24 sm:py-32 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto justify-start"
     >
-      <h2 className="text-lg font-bold md:text-3xl text-primary text-center mb-2 tracking-wider p-10">
+      <h2 className="text-lg font-bold text-transparent bg-gradient-to-r from-primary to-secondary flex items-center justify-center bg-clip-text md:text-3xl text-center mb-2 tracking-wider p-10">
         Why This Matters To Africa
       </h2>
       <div className="grid md:grid-cols-2 gap-4">
@@ -96,7 +96,7 @@ export const BenefitsSection = () => {
                       <IconComponent size={32} className="text-primary" />
                     )}
                   </div>
-                  <CardTitle>{title}</CardTitle>
+                  <CardTitle className="text-primary">{title}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground text-center">
                   {description}
