@@ -4,6 +4,10 @@ import Solution from "@/components/Solution";
 import BenefitsSection from "@/components/Benefits";
 import ContactUs from "@/components/Contact";
 import Footer from "@/components/Footer";
+<<<<<<< HEAD
+=======
+import ScaleSection from "@/components/Scale";
+>>>>>>> origin/main
 
 export default function Home() {
   return (
@@ -12,6 +16,10 @@ export default function Home() {
       <ApproachSection />
       <Solution />
       <BenefitsSection />
+<<<<<<< HEAD
+=======
+      <ScaleSection />
+>>>>>>> origin/main
       <ContactUs />
       <Footer />
     </div>

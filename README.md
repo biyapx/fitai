@@ -58,3 +58,7 @@ src/
 
 - **Colors & Theme:** Easily adjust theme colors in `globals.css` using CSS variables and Tailwind's theme system.
 - **Content:** Update the content in `src/components/solution.jsx`, `Benefits.jsx`, etc., to match your needs.
+<<<<<<< HEAD
+=======
+  > > > > > > > master
+>>>>>>> origin/main
