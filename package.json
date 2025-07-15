@@ -23,10 +23,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.59.0",
-<<<<<<< HEAD
-=======
     "resend": "^4.6.0",
->>>>>>> origin/main
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.10",
     "zod": "^3.25.67"

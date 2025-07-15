@@ -27,24 +27,14 @@ const Solution = () => {
             key={title}
             className="flex flex-col w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto "
           >
-<<<<<<< HEAD
-            <div className="text-xl flex justify-start text-primary md:text-2xl font-bold mt-4 pt-4">
-              {title}
-            </div>
-=======
             <h1 className="text-xl md:text-2xl text-transparent bg-gradient-to-r from-primary to-secondary flex items-center bg-clip-text font-bold mb-4 pb-4">
               {title}
             </h1>
->>>>>>> origin/main
             <Card key={title} className=" my-5 bg-muted/50 dark:bg-card">
               <div className="grid">
                 <div className="flex flex-col justify-center h-full mx-auto">
                   <CardHeader className="justify-center py-2 md:py-4">
-<<<<<<< HEAD
-                    <CardTitle className="py-2 md:py-4 text-xl md:text-2xl">
-=======
                     <CardTitle className="py-2 md:py-4 text-xl md:text-2xl text-primary">
->>>>>>> origin/main
                       {lable}
                     </CardTitle>
                   </CardHeader>
