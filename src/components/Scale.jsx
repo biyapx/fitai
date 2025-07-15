@@ -7,6 +7,7 @@ import {
   SchoolIcon,
 } from "lucide-react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const ScaleSection = () => {
   return (
@@ -18,9 +19,9 @@ const ScaleSection = () => {
         What We Need to Scale
       </h2>
       <div className="grid md:grid-cols-3 gap-8 mb-12">
-        <Card className="bg-muted/70 dark:bg-card border-none shadow-lg">
+        <Card className="bg-muted/50 dark:bg-card border-none shadow-lg">
           <CardContent className="p-8 text-primary">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2">
               <BadgeDollarSignIcon />
             </div>
             <h3 className="text-xl font-bold mb-4 text-center">
@@ -32,9 +33,9 @@ const ScaleSection = () => {
           </CardContent>
         </Card>
 
-        <Card className="bg-muted/70 dark:bg-card border-none shadow-lg">
+        <Card className="bg-muted/50 dark:bg-card border-none shadow-lg">
           <CardContent className="p-8 text-primary">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2">
               <HandshakeIcon />
             </div>
             <h3 className="text-xl font-bold mb-4 text-center">
@@ -46,9 +47,9 @@ const ScaleSection = () => {
           </CardContent>
         </Card>
 
-        <Card className="bg-white/60 border-none shadow-lg">
+        <Card className="bg-muted/50 dark:bg-card border-none shadow-lg">
           <CardContent className="p-8 text-primary">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2">
               <SchoolIcon />
             </div>
             <h3 className="text-xl font-bold mb-4 text-center">
@@ -72,7 +73,11 @@ const ScaleSection = () => {
           </p>
         </CardContent>
         <div className="flex justify-center mb-4">
-          <Button className="px-10 bg-card text-primary">Learn More</Button>
+          <Link href="https://google.com">
+            <Button className="px-10 bg-card text-primary hover:bg-muted cursor-pointer">
+              Learn More
+            </Button>
+          </Link>
         </div>
       </Card>
     </section>
